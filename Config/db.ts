@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DB_URL: string = "mongodb://localhost/E-commerce"
+const DB_URL: string = "mongodb://0.0.0.0:27017/E-commerce"
 
 export const DBconnect = async(): Promise<void> =>{
     try {

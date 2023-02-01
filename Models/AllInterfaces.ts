@@ -17,6 +17,7 @@ export interface productData {
 
 export interface wishListData {
     name : string,
+    
 
 } 
 

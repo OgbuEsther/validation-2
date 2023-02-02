@@ -2,6 +2,7 @@ import joi from "joi";
 
 // VALIDATION SCHEMA OBJECT:
 
+
 export const userSchema = {
     register: joi.object({
         name: joi.string().required(),
